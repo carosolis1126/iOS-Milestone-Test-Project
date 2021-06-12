@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="vin-Sz-T4U">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="255px-Flag_of_Italy.svg" translatesAutoresizingMaskIntoConstraints="NO" id="7NE-tq-4c6">
+                                <rect key="frame" x="157" y="791" width="100" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ray-wZ-UYr"/>
+                                    <constraint firstAttribute="height" constant="90" id="wde-xl-p1P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rOh-e2-xov">
+                                <rect key="frame" x="172" y="168" width="70.5" height="60"/>
+                                <string key="text">Hello
+World!</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hallo Wereld!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gn-LI-QSk">
+                                <rect key="frame" x="166" y="408" width="82.5" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ner-T3-nNY">
+                                <rect key="frame" x="165.5" y="647" width="83" height="60"/>
+                                <string key="text">Ciao
+Mondo!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ML-Q0-Ur8">
+                                <rect key="frame" x="64.5" y="238" width="285" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Sign In to Google" backgroundImage="Google">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gn2-e4-SzN">
+                                <rect key="frame" x="64.5" y="717" width="285" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Accedi a Google" backgroundImage="Google">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dR4-bP-EHU">
+                                <rect key="frame" x="64.5" y="478" width="285" height="69"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Inloggen bij Google" backgroundImage="Google">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="255px-Flag_of_the_Netherlands.svg" translatesAutoresizingMaskIntoConstraints="NO" id="qb1-sw-bJb">
+                                <rect key="frame" x="157" y="552" width="100" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6pZ-Hb-KqC"/>
+                                    <constraint firstAttribute="height" constant="90" id="Pd2-H9-Zdw"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="united-states-of-america-flag-png-large" translatesAutoresizingMaskIntoConstraints="NO" id="KOg-Yw-4Ey">
+                                <rect key="frame" x="152" y="307" width="110" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="EjI-jy-J65"/>
+                                    <constraint firstAttribute="height" constant="90" id="yqp-0O-pSB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9gn-LI-QSk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="00H-wb-4yG"/>
+                            <constraint firstItem="qb1-sw-bJb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="33n-Mk-jnl"/>
+                            <constraint firstItem="rOh-e2-xov" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ATH-d3-wlf"/>
+                            <constraint firstItem="gn2-e4-SzN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C45-O1-Z9L"/>
+                            <constraint firstItem="vin-Sz-T4U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EoS-Sl-gAz"/>
+                            <constraint firstItem="7NE-tq-4c6" firstAttribute="top" secondItem="gn2-e4-SzN" secondAttribute="bottom" constant="5" id="Fee-dR-HPU"/>
+                            <constraint firstAttribute="trailing" secondItem="vin-Sz-T4U" secondAttribute="trailing" id="HZR-7g-5zS"/>
+                            <constraint firstItem="ner-T3-nNY" firstAttribute="top" secondItem="dR4-bP-EHU" secondAttribute="bottom" constant="100" id="Pys-4M-ho7"/>
+                            <constraint firstItem="vin-Sz-T4U" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ssh-77-F43"/>
+                            <constraint firstItem="dR4-bP-EHU" firstAttribute="top" secondItem="9gn-LI-QSk" secondAttribute="bottom" constant="10" id="UJa-be-Ybr"/>
+                            <constraint firstItem="rOh-e2-xov" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-250" id="Ukc-6O-j6c"/>
+                            <constraint firstItem="KOg-Yw-4Ey" firstAttribute="top" secondItem="3ML-Q0-Ur8" secondAttribute="bottom" id="VAp-U9-z8s"/>
+                            <constraint firstItem="7NE-tq-4c6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y5p-mO-2cs"/>
+                            <constraint firstAttribute="bottom" secondItem="vin-Sz-T4U" secondAttribute="bottom" id="bIq-Py-4iX"/>
+                            <constraint firstItem="qb1-sw-bJb" firstAttribute="top" secondItem="dR4-bP-EHU" secondAttribute="bottom" constant="5" id="e4M-0I-tfJ"/>
+                            <constraint firstItem="3ML-Q0-Ur8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gTc-R9-kO6"/>
+                            <constraint firstItem="3ML-Q0-Ur8" firstAttribute="top" secondItem="rOh-e2-xov" secondAttribute="bottom" constant="10" id="hld-55-8Au"/>
+                            <constraint firstItem="9gn-LI-QSk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-10" id="oh3-iC-xyK"/>
+                            <constraint firstItem="KOg-Yw-4Ey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qPe-HE-5kY"/>
+                            <constraint firstItem="gn2-e4-SzN" firstAttribute="top" secondItem="ner-T3-nNY" secondAttribute="bottom" constant="10" id="u6i-iK-GbU"/>
+                            <constraint firstItem="ner-T3-nNY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ujW-HT-8uA"/>
+                            <constraint firstItem="dR4-bP-EHU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xQp-A8-ZlT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26.086956521739133" y="80.357142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="255px-Flag_of_Italy.svg" width="255" height="170"/>
+        <image name="255px-Flag_of_the_Netherlands.svg" width="255" height="170"/>
+        <image name="Background" width="414" height="896"/>
+        <image name="Google" width="285" height="69"/>
+        <image name="united-states-of-america-flag-png-large" width="1000" height="527"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
